@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang ="pl">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Anna Rolbiecka Psychoterapia zaburzeń odzywiania">
+      <meta name="keywords" content="psycholog, psychoterapia, zaburzenia odzywiania, warsztaty, Anna Rolbiecka">
+      <!--set max width of screen, no scale-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Psychoterapia Anna Rolbiecka</title>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">    
+      <link href='http://fonts.googleapis.com/css?family=Hind&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Imprima&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+      <header class="contener">
+         <img id="logo" src="img/heart-and-brain.jpg" alt="logo" />
+         <h1 id="tytul1"><a href="index.html"></a> Psychoterapia zaburzeń odżywiania</h1>
+         <h2 id="tytul2"><a href="index.html"></a>Anna Rolbiecka</h2>
+         <nav>
+            <ul>
+               <li><a href="#kontakt"> Kontakt </a></li>
+               <li><a href="#warsztaty">Warsztaty</a></li>
+               <li><a href="#psychoterapia">Psychoterapia</a></li>
+               <li><a href="#omnie">O mnie</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div id="main_img">
+         <img src="img/listki.jpg" alt="nowe_życie" />
+      </div>
+      <hr align="center" noshade>
+      <section id="omnie" >
+         <h1 class="podstrona"><a name="#omnie">o mnie</h1>
+         <img id="fotoProfil" src="img/ania_r.jpg" alt="AnnaRolbiecka"/>
+         <div class="tekstPodstrony">
+            <p>
+            </p>
+         </div>
+      </section>
+      <hr align="center" noshade>
+      <section id="psychoterapia" >
+         <h1 class="podstrona"><a name="#psychoterapia">psychoterapia</h1>
+         <div class="kafle" id="indywidualna">
+            Psychoterapia indywidualna
+            <div><img src="img/ind.jpeg" alt="rosne" /></div>
+         </div>
+         <div class="kafle" id="grupowa">
+            Psychoterapia grupowa
+            <div><img src="img/grupa.jpg" alt="rosniemy_razem" /></div>
+         </div>
+         <div class="kafle" id="arteterapia">
+            Arteterapia
+            <div><img src="img/arte2.jpg" alt="rysunek_z_arteterapii" /></div>
+         </div>
+         <div class="kafle" id="odzywianie">
+            O zaburzeniach odżywiania
+            <div><img src="img/talerz.jpg" alt="talerz" /></div>
+         </div>
+         <hr align="center" noshade>
+      </section>
+      <section id="warsztaty" >
+         <h1 class="podstrona"><a name="#warsztaty">warsztaty</h1>
+         <div class="tekstPodstrony">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+               ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+               ex ea commodo consequat. 
+            </p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate 
+               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+               cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+               laborum
+            </p>
+         </div>
+      </section>
+      <hr align="center" noshade>
+      <section id="kontakt">
+         <h2 class="podstrona"><a name="#kontakt">kontakt</h2>
+         <div class="tekstPodstrony"> telefon: facebook: Adres: </div>
+      </section>
+      <hr align="center" noshade>
+      <footer>	&copy; 2016 by BC</footer>
+   </body>
+</html>
+
