@@ -34,14 +34,14 @@ min-width: 210px;
 float: left;
 }
 header div a h1, h2{
-	
+
 	text-align:left;
 	display: inline-block;
 	width: 28%;
 	min-width: 210px;
 	text-decoration: none;
 color: #000000;
-	
+
 }
 
 header div a h1{
@@ -51,7 +51,7 @@ header div a h1{
 header div a h2{
 	font-size:15pt;
 	margin-top: 2%;
-	
+
 }
 nav {
 width: 45%;
@@ -103,7 +103,7 @@ text-decoration: none;
 #main_img {
 width:100%;
 overflow:hidden;
-background: URL(img/listki.jpg) top center;
+background: URL(../img/listki.jpg) top center;
 height:650px;
 background-size:cover;
 background-repeat: no-repeat;
@@ -148,21 +148,34 @@ display:block;}
 	margin:5%;
 	border-radius:5px;
 	border-color:rgba(250,250,250,1);
-	border-width:15px; 
+	border-width:15px;
 	}
 /*----------psychoterapia------------*/
 #indywidualna{
-background-image:URL(img/inds.png);
+background-image:URL(../img/inds.png);
 no-repeat;
 }
 #grupowa{
-background-image:URL(img/grupas.png);
+background-image:URL(../img/grupas.png);
 }
 #arteterapia{
-background-image:URL(img/arte2s.png);
+background-image:URL(../img/arte2s.png);
+}
+.main-text {
+	font-size: 1.7em;
+	text-align:justify;
+	text-indent:20px;
+	padding-top:180px;
+	line-height:2em;
+	margin-left:7%;
+	margin-right:7%;
+
+}
+.main-text p{
+	margin:1%;
 }
 #odzywianie{
-background-image:URL(img/talerzs.png);
+background-image:URL(../img/talerzs.png);
 }
 
 .kafle-container {
@@ -184,7 +197,7 @@ font-size: 1.2em;
 line-height:2em;
 }
 b{
-font-weight: bold; 
+font-weight: bold;
 }
 
 /*----------kontakty------------*/
@@ -193,7 +206,7 @@ footer{
 	color: rgba(1,1,1,0.5);
 	font-family: 'Imprima', sans-serif;
 	float:right;
-	}	
+	}
 
 /*--------MAX-WIDTH 1024--------*/
 @media screen and (max-width:1024px) {
@@ -248,7 +261,7 @@ header div a h1{
 header div a h2{
 	font-size:13pt;
 	margin-top: 2%;
-	
+
 }
 
 header nav ul li{
@@ -279,4 +292,3 @@ color: #000;
 top: 76px;
 right: 40%;}
 }
-
