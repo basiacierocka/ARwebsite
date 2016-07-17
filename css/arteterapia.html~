@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang ="pl">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Anna Rolbiecka Psychoterapia zaburzeń odzywiania">
+      <meta name="keywords" content="psycholog, psychoterapia, zaburzenia odzywiania, warsztaty, Anna Rolbiecka">
+      <!--set max width of screen, no scale-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Psychoterapia Anna Rolbiecka</title>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="../style.css"> 
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>   
+      <link href='http://fonts.googleapis.com/css?family=Hind&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Imprima&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+   <body>
+      <header class="contener floatfix">
+         
+<div> <a href="index.html"><img id="logo" src="img/arte1.jpg" alt="logo" />        
+         <h2>Psychoterapia zaburzeń odżywiania</h2><br>
+         <h1>Anna Rolbiecka</h1>
+         </a>
+         </div>
+         <nav>
+         <a href="#" class="switch">MENU</a>
+            <ul class='menu'>
+               <li><a href="#omnie">O mnie</a></li>
+               <li><a href="#obszary">Obszary pomocy</a></li>
+               <li><a href="#oferta">Oferta</a></li>
+               <li><a href="#warsztaty">Warsztaty</a><li>             
+               <li><a href="#kontakt"> Kontakt </a></li>
+            </ul>
+         </nav>
+               <footer>	&copy; 2016 by BC</footer>
+       <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  
+<script src='./ar.js'></script>
+   </body>
+</html> 
