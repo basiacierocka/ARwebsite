@@ -152,23 +152,27 @@ display:block;}
 	}
 /*----------psychoterapia------------*/
 #indywidualna{
-background-image:URL(img/inds.jpeg);
+background-image:URL(img/inds.png);
 no-repeat;
 }
 #grupowa{
-background-image:URL(img/grupa.jpg);
+background-image:URL(img/grupas.png);
 }
 #arteterapia{
-background-image:URL(img/arte2.jpg);
+background-image:URL(img/arte2s.png);
 }
 #odzywianie{
-background-image:URL(img/talerz.jpg);
+background-image:URL(img/talerzs.png);
+}
+
+.kafle-container {
+margin: 10%;
 }
 .kafle{
 color:#ffffff;
-	width:400px;
-	height:400px;
-	display:table;
+	width:290px;
+	height:290px;
+	display:table-cell;
 	text-align: center;
 	float: both;
 }
