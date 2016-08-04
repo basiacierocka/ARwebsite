@@ -1,84 +1,23 @@
 body {
 	background-color:rgba(1,50,50,0.1);
 	font-family: 'Hind', sans-serif;
-	font-size: 62.5%;
 	}
-.contener {
+/*-----header------*/
+.container {
 	background-color:rgba(255,255,255,0.9);
 	height:90px;
-	width:100%;
-	max-width:1100 px;
-	margin: 0 auto;
 	position:fixed;
 	top:0px;
 }
-.floatfix:after{
-	content: '';
-	display: block;
-	clear: both;
-}
+
 #logo{
 	width:70px;
 	height:70px;
-	display:inline;
 	background-color:#333;
-	margin:2%;
 	border-radius:5px;
-	float: left;
 }
-
-header div{
-	display: inline-block;
-	margin-left: 1%;
-	min-width: 210px;
-	float: left;
-}
-.hidden_menu{
-	visibility: hidden;
-}
-header div a h1, h2{
-	text-align:left;
-	display: inline-block;
-	width: 28%;
-	min-width: 210px;
-	text-decoration: none;
-	color: #000000;
-}
-header div a h1{
-	font-size:20pt;
-	margin-top: 2%;
-}
-header div a h2{
-	font-size:15pt;
-	margin-top: 2%;
-}
-nav {
-	width: 45%;
-	float: right;
-}
-nav ul{
-	list-style-type:none;
-	width: 100%;
-	display: table;
-}
-nav ul li{
-	display: table-cell;
-}
-nav ul.visible {
-	display:table;
-	width:100%;
-}
-nav ul li a{
-	display: block;
-	height: 90px;
-	line-height: 70px;
-	font-size: 1.3em;
-	text-align: center;
-	text-decoration: none;
-	color: #000000;
-}
-li a:hover {
-	border-top: 4px solid #40bf80;
+.hidden_keyword {
+	visibility:hidden;
 }
 /*-----main----*/
 #main_img {
@@ -138,9 +77,7 @@ hr{
 	.main-text p{
 		margin:1%;
 	}
-.hidden_town {
-	visibility:hidden;
-}
+
 .main-text-warsztaty{
 	padding-top:120px;
 	margin-left:10%;
@@ -365,6 +302,7 @@ header div a h1{
 header div a h2{
 	font-size:13pt;
 	margin-top: 2%;
+
 }
 header nav ul {
 	position: fixed;
@@ -394,9 +332,4 @@ li a:hover {
 }
 .cytat br{
 	display:none;
-}
-.big{
-	font-size: 20px;
-	font-weight: lighter;
-	font-style: italic;
 }
