@@ -1,0 +1,387 @@
+body {
+  margin: 0;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+h3, h4{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+
+::selection {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+}
+
+.main-search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.main-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+.logo-image {
+  height: 60px;
+  width: 60px;
+}
+
+.drawer-logo-image{
+  margin-left: 30px;;
+  height: 180px;
+  width: 180px;
+}
+
+.main-header {
+  overflow: visible;
+  background-color: white;
+}
+
+.main-company-name {
+  padding-left: 5px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: #8B8381;
+}
+.main-company-name b{
+  color: #000;
+}
+
+.main-header .material-icons {
+    color: #767777 !important;
+  }
+
+.main-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+.main-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+.main-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.main-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+  }
+
+.main-search-box.is-focused + .main-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+
+.main-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+.main-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #FF0C08;
+  }
+
+.main-search-box {
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: 16px;
+  margin-right: 16px;
+  }
+
+.main-drawer {
+  border-right: none;
+}
+
+.main-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+
+.main-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
+
+.main-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #8bc34a;
+  }
+
+.main-drawer .mdl-layout-title {
+    position: relative;
+    background: #FAFAFA;
+    height: 160px;
+  }
+
+.main-drawer .logo-image {
+    position: absolute;
+    bottom: 16px;
+  }
+
+.main-welcome-section{
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background-size: cover;
+  background:url('../img/listki.jpg') center 30% no-repeat;
+}
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #fff;
+  font-weight: 500;
+}
+
+.main-sub-slogan h3{
+  text-align: left;
+  color:#15313C;
+  font-size: 1.6em;
+  padding-top: 24px;
+  text-indent: 20px;
+}
+
+.main-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;title
+  }
+
+.section-title{
+  margin-bottom: 25px;
+}
+
+.mdl-typography--font-light{
+  text-align: left;
+}
+
+.main-method-section, .main-contact-section {
+  text-align: center;
+}
+
+.main-method-section-text,.main-contact-section-text {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+.main-method-section-text p {
+  padding-top: 16px;
+}
+
+.contact-cell p{
+  padding: 15px;
+  line-height: 1.3em;
+  font-size: 1em;
+  text-align: left;
+  color: #777777;
+}
+
+.contact-cell .contact-description{
+  font-size: 0.8em;
+}
+
+.mdl-button, .mdl-button a{
+  margin-top: 10px;
+  text-decoration: none;
+  color:#FF0C07;
+}
+
+.main-cards-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-cards-section .main-section-title {
+  margin-left: 12px;
+  padding-bottom: 24px;
+}
+
+.main-card-container {
+  margin-top: 30px;
+}
+
+.mdl-card a{
+  text-decoration: none;
+}
+
+.main-card-container .mdl-card__media {
+  overflow: hidden;
+  background: transparent;
+}
+
+.main-card-container .mdl-card__media img {
+  width: 100%;
+  height: 220px;
+}
+
+.main-card-container .mdl-card__title {
+  background: transparent;
+  height: auto;
+}
+
+.main-card-container .mdl-card__title-text {
+  color: black;
+  height: auto;
+}
+
+.main-card-container .mdl-card__supporting-text {
+  height: auto;
+  color: black;
+  padding-bottom: 56px;
+}
+
+.main-card-container .mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+
+.main-card-container .mdl-card__actions a {
+  border-top: none;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #D4DBE3;
+  position: relative;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.designer {
+  font-size:0.7em;
+}
+
+.footer .mdl-mega-footer--top-section::after {
+  border-bottom: none;
+}
+
+.footer .mdl-mega-footer--middle-section::after {
+  border-bottom: none;
+}
+
+.footer .mdl-mega-footer--bottom-section {
+  position: relative;
+}
+
+.footer .mdl-mega-footer--bottom-section a {
+  margin-right: 2em;
+}
+
+.footer .mdl-mega-footer--right-section a .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.main-link-menu:hover {
+  cursor: pointer;
+}
+
+.text-section p{
+  text-align: left;
+  text-indent: 20px;
+}
+
+.text-section img{
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+  display: inline;
+  float: left;
+}
+/**** tablet and mobile layout ****/
+@media (max-width: 1220px) {
+  .logo-image{
+    width:53px;
+    height:53px;
+  }
+  .main-navigation-container {
+    display: none;
+  }
+
+  .main-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+  .main-search-box.is-focused + .main-navigation-container + .main-mobile-title {
+    opacity: 0;
+  }
+
+  .main-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+
+  .main-search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+
+  .main-welcome-section {
+    height: 500px;
+  }
+
+  .main-sub-slogan h3{
+    color: #15313C;
+    font-size: 1.3em;
+    margin: 0 16px;
+    padding-top: 8px;
+    line-height: 1.3em;
+  }
+
+  .footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
+/**** mobile layout ****/
+@media (max-width: 550px) {
+  .main-title {
+      display: none !important;
+    }
+
+  .main-sub-slogan h3{
+    color: #15313C;
+    font-size: 1.1em;
+    margin: 0 16px;
+    padding-top: 8px;
+    line-height: 1.3em;
+  }
+}
