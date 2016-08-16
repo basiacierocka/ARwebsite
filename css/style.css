@@ -1,402 +1,387 @@
 body {
-	background-color:rgba(1,50,50,0.1);
-	font-family: 'Hind', sans-serif;
-	font-size: 62.5%;
-	}
-.contener {
-	background-color:rgba(255,255,255,0.9);
-	height:90px;
-	width:100%;
-	max-width:1100 px;
-	margin: 0 auto;
-	position:fixed;
-	top:0px;
+  margin: 0;
+  font-family: 'Hind Siliguri', sans-serif;
 }
-.floatfix:after{
-	content: '';
-	display: block;
-	clear: both;
+h3, h4{
+  font-family: 'Hind Siliguri', sans-serif;
 }
-#logo{
-	width:70px;
-	height:70px;
-	display:inline;
-	background-color:#333;
-	margin:2%;
-	border-radius:5px;
-	float: left;
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
 }
 
-header div{
-	display: inline-block;
-	margin-left: 1%;
-	min-width: 210px;
-	float: left;
-}
-.hidden_menu{
-	visibility: hidden;
-}
-header div a h1, h2{
-	text-align:left;
-	display: inline-block;
-	width: 28%;
-	min-width: 210px;
-	text-decoration: none;
-	color: #000000;
-}
-header div a h1{
-	font-size:20pt;
-	margin-top: 2%;
-}
-header div a h2{
-	font-size:15pt;
-	margin-top: 2%;
-}
-nav {
-	width: 45%;
-	float: right;
-}
-nav ul{
-	list-style-type:none;
-	width: 100%;
-	display: table;
-}
-nav ul li{
-	display: table-cell;
-}
-nav ul.visible {
-	display:table;
-	width:100%;
-}
-nav ul li a{
-	display: block;
-	height: 90px;
-	line-height: 70px;
-	font-size: 1.3em;
-	text-align: center;
-	text-decoration: none;
-	color: #000000;
-}
-li a:hover {
-	border-top: 4px solid #40bf80;
-}
-/*-----main----*/
-#main_img {
-	width:100%;
-	overflow:hidden;
-	background: URL(../img/listki.jpg) top center;
-	height:650px;
-	background-size:cover;
-	background-repeat: no-repeat;
-	display:block;
-	margin-bottom:2%;
+::-moz-selection {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
 }
 
-.cytat{
-	color:#595959;
-	text-align:left;
-	text-indent:20px;
-	padding-top:180px;
-	font-size:1.7em;
-	line-height:2em;
-	margin-left:5%;
-	width:48%;
-}
-.big{
-	font-size: 25px;
-	font-weight: lighter;
-	font-style: italic;
-	color:#404040;
+::selection {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
 }
 
-#eugene{
-	text-indent:50%;
-}
-hr{
-	color:rgba(250, 250,250,1);
-	display:block;
+.main-search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
 }
 
-.nazwa-podstrony a{
-	display:block;
-	font-family:sans-serif;
-	font-size:18pt;
-	text-align:center;
-	padding-top:100px;
-	}
-
-.main-text {
-	font-size: 1.6em;
-	text-align:justify;
-	text-indent:20px;
-	padding-top:40px;
-	line-height:2em;
-	margin-left:7%;
-	margin-right:7%;
-	margin-bottom: 100px;
-}
-	.main-text p{
-		margin:1%;
-	}
-.hidden_town {
-	visibility:hidden;
-}
-.main-text-warsztaty{
-	padding-top:120px;
-	margin-left:10%;
-	margin-right:25%;
-}
-.main-text-warsztaty p{
-	margin-bottom:2%;
-}
-.tekstPodstrony_oferta{
-	margin:2%;
-	padding:2%;
-	font-size: 1,2em;
-	line-height: 1,05em;
-}
-/*----------o mnie------------*/
-#fotoProfil{
-	width:30%;
-	height:30%;
-	display:inline-block;
-	float:left;
-	margin:5%;
-	border-radius:5px;
-	border-color:rgba(250,250,250,1);
-	border-width:15px;
-}
-/*----------obszary------------*/
-.obszary {
-	text-align: ;
-}
-/*----------psychoterapia------------*/
-.podstrona-text{
-	padding-top:100px;
-}
-.title{
-	font-size: 2em;
-	text-align: center;
-	margin-bottom: 4%;
-}
-#indywidualna{
-	background-image:URL(../img/inds.png);
-	no-repeat;
-}
-#grupowa{
-	background-image:URL(../img/grupas.png);
-}
-#arteterapia{
-	background-image:URL(../img/arte2s.png);
-}
-#position-relative{
-	position:relative;
-}
-#odzywianie{
-	background-image:URL(../img/talerzs.png);
+.main-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
 }
 
-.img_zab_odz{
-	width: 20%;
-	height: 20%;
-	margin: 2%;
-	display: inline;
-	float: left;
-}
-.kafle-container-1, .kafle-container-2 {
-	margin-top: 1%;
-	margin-right: 10%;
-	margin-left: 12%;
-	margin-bottom: 1%;
-}
-.kafle {
-	color:#ffffff;
-	width:279px;
-	height:279px;
-	display:table-cell;
-	text-align: center;
-	float: both;
-	border:5px solid #fff;
-	text-decoration: none;
-}
-.kafle:hover{
-	border:5px solid #40bf80;
-}
-.kafle-container a{
-	padding:2%;
-}
-a span {
-	font-size: 2em;
-	line-height: 2.3em;
-}
-a span:hover{
-	color: #40bf80;
-}
-#odzywianie {
-	color: #000;
-}
-/*----------warsztaty------------*/
-.tytul_warsztatu{
-	text-align: center;
-	line-height: 1,3em;
-	font-size: 2em;
-}
-.link_to_warsztaty{
-	text-decoration: none;
-	background-color: #40bf80;
-	color:#000;
-	padding-right: 2%;
-	border: solid 1px #ccc;
-	float:right;
-	text-align: center;
-}
-.link_to_warsztaty:hover{
-	background-color: #fff;
-}
-/*----------obszary pomocy------------*/
-b{
-	font-weight: bold;
-}
-/*----------kontakt------------*/
-footer{
-	font-size:8pt;
-	color: rgba(1,1,1,0.5);
-	font-family: 'Imprima', sans-serif;
-	display:block;
-	clear:both;
-	margin-top: 10px;
-}
-.footerline{
-	display:block;
-	clear:both;
-}
-.main-text-kontakt{
-	margin-right: 2%;
-	display: inline-block;
-	width:40%;
-	float:left;
-}
-.emptyline{
-	height: 20px;
-}
-.visiteme {
-	display: inline-block;
-	width:40%;
-	float:right;
-	font-size: 2em;
-	line-height: 3em;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-.visiteme a{
-	text-decoration: none;
-	color:#000;
-}
-.visiteme span{
-	padding:2% 9%;
-	background-color: #40bf80;
+.logo-image {
+  height: 60px;
+  width: 60px;
 }
 
-iframe{
-	display: inline;}
+.drawer-logo-image{
+  margin-left: 30px;;
+  height: 180px;
+  width: 180px;
+}
 
-/*--------MIN-WIDTH 1000--------*/
-@media screen and (min-width:1300px) {
-	.kafle-container-1, .kafle-container-2{
-		display:inline;
-		float:both;
-	}
-	.kafle-container-1{
-		margin-right: 0%;
-	}
-	.kafle-container-2{
-		margin-left: 0%;
-	}
+.main-header {
+  overflow: visible;
+  background-color: white;
 }
-/*--------MAX-WIDTH 764--------*/
-@media screen and (max-width:764px) {
-.contener {
-	height:140px;
-}
-header nav{
-	width: 100%;
-}
-#logo{
-	width:70px;
-	height:70px;
-}
-.cytat{
-	padding-top:190px;
-	font-size:1.7em;
-	line-height:1.7em;
 
+.main-company-name {
+  padding-left: 5px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: #8B8381;
 }
-.nazwa-podstrony a{
-	padding-top: 150px;
+.main-company-name b{
+  color: #000;
 }
-/*--------MAX-WIDTH 650--------*/
-@media screen and (max-width:650px) {
-	.cytat{
-		padding-top:170px;
-		font-size:1.6em;
-		line-height:1.6em;
-		width:55%;
-	}
+
+.main-header .material-icons {
+    color: #767777 !important;
+  }
+
+.main-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+.main-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+.main-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.main-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+  }
+
+.main-search-box.is-focused + .main-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+
+.main-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+.main-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #FF0C08;
+  }
+
+.main-search-box {
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: 16px;
+  margin-right: 16px;
+  }
+
+.main-drawer {
+  border-right: none;
 }
-/*--------MAX-WIDTH 480--------*/
-@media screen and (max-width:480px) {
-	.contener {
-		height: 115px;
-	}
-	#logo {
-		width:58px;
-		height:58px;
-	}
-	.hidden_menu{
-		visibility: visible;
-	}
-header div {
-	width: 100%;
+
+.main-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+
+.main-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
+
+.main-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #8bc34a;
+  }
+
+.main-drawer .mdl-layout-title {
+    position: relative;
+    background: #FAFAFA;
+    height: 160px;
+  }
+
+.main-drawer .logo-image {
+    position: absolute;
+    bottom: 16px;
+  }
+
+.main-welcome-section{
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background-size: cover;
+  background:url('../img/listki.jpg') center 30% no-repeat;
 }
-header div a h1{
-	font-size:14pt;
-	margin-top: 2%;
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #fff;
+  font-weight: 500;
 }
-header div a h2{
-	font-size:13pt;
-	margin-top: 2%;
+
+.main-sub-slogan h3{
+  text-align: left;
+  color:#15313C;
+  font-size: 1.6em;
+  padding-top: 24px;
+  text-indent: 20px;
 }
-header nav ul {
-	position: fixed;
-	top:0px;
+
+.main-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;title
+  }
+
+.section-title{
+  margin-bottom: 25px;
 }
-header nav ul li{
-	width: 100%;
-	float:right;
+
+.mdl-typography--font-light{
+  text-align: left;
 }
-header nav ul li a{
-	line-height: 20px;
-	height: 20px;
-	font-size: 1.1em;
-	text-align: right;
+
+.main-method-section, .main-contact-section {
+  text-align: center;
 }
-li a:hover {
-	border-top: none;
+
+.main-method-section-text,.main-contact-section-text {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
 }
-.cytat{
-	padding-top:130px;
-	font-size:1.5em;
-	line-height:1.7em;
-	width:60%;
+
+.main-method-section-text p {
+  padding-top: 16px;
 }
-#eugene{
-	text-indent:20%;
+
+.contact-cell p{
+  padding: 15px;
+  line-height: 1.3em;
+  font-size: 1em;
+  text-align: left;
+  color: #777777;
 }
-.cytat br{
-	display:none;
+
+.contact-cell .contact-description{
+  font-size: 0.8em;
 }
-.big{
-	font-size: 20px;
-	font-weight: lighter;
-	font-style: italic;
+
+.mdl-button, .mdl-button a{
+  margin-top: 10px;
+  text-decoration: none;
+  color:#FF0C07;
+}
+
+.main-cards-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-cards-section .main-section-title {
+  margin-left: 12px;
+  padding-bottom: 24px;
+}
+
+.main-card-container {
+  margin-top: 30px;
+}
+
+.mdl-card a{
+  text-decoration: none;
+}
+
+.main-card-container .mdl-card__media {
+  overflow: hidden;
+  background: transparent;
+}
+
+.main-card-container .mdl-card__media img {
+  width: 100%;
+  height: 220px;
+}
+
+.main-card-container .mdl-card__title {
+  background: transparent;
+  height: auto;
+}
+
+.main-card-container .mdl-card__title-text {
+  color: black;
+  height: auto;
+}
+
+.main-card-container .mdl-card__supporting-text {
+  height: auto;
+  color: black;
+  padding-bottom: 56px;
+}
+
+.main-card-container .mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+
+.main-card-container .mdl-card__actions a {
+  border-top: none;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #D4DBE3;
+  position: relative;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.designer {
+  font-size:0.7em;
+}
+
+.footer .mdl-mega-footer--top-section::after {
+  border-bottom: none;
+}
+
+.footer .mdl-mega-footer--middle-section::after {
+  border-bottom: none;
+}
+
+.footer .mdl-mega-footer--bottom-section {
+  position: relative;
+}
+
+.footer .mdl-mega-footer--bottom-section a {
+  margin-right: 2em;
+}
+
+.footer .mdl-mega-footer--right-section a .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.main-link-menu:hover {
+  cursor: pointer;
+}
+
+.text-section p{
+  text-align: left;
+  text-indent: 20px;
+}
+
+.text-section img{
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+  display: inline;
+  float: left;
+}
+/**** tablet and mobile layout ****/
+@media (max-width: 1220px) {
+  .logo-image{
+    width:53px;
+    height:53px;
+  }
+  .main-navigation-container {
+    display: none;
+  }
+
+  .main-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+  .main-search-box.is-focused + .main-navigation-container + .main-mobile-title {
+    opacity: 0;
+  }
+
+  .main-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+
+  .main-search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+
+  .main-welcome-section {
+    height: 500px;
+  }
+
+  .main-sub-slogan h3{
+    color: #15313C;
+    font-size: 1.3em;
+    margin: 0 16px;
+    padding-top: 8px;
+    line-height: 1.3em;
+  }
+
+  .footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
+/**** mobile layout ****/
+@media (max-width: 550px) {
+  .main-title {
+      display: none !important;
+    }
+
+  .main-sub-slogan h3{
+    color: #15313C;
+    font-size: 1.1em;
+    margin: 0 16px;
+    padding-top: 8px;
+    line-height: 1.3em;
+  }
 }
