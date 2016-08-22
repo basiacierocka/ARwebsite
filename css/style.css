@@ -147,8 +147,8 @@ a img{
 
 .main-welcome-section{
   position: relative;
-  height: 800px;
-  width: auto;
+  height: 700px;
+  max-width: 1600px;
   background-color: #f3f3f3;
   background-size: cover;
   background:url('../img/listki.jpg') center 30% no-repeat;
@@ -163,10 +163,17 @@ a img{
 
 .main-sub-slogan h3{
   text-align: left;
+  font-family: 'Tillana', cursive;
   color:#15313C;
-  font-size: 1.6em;
+  font-size: 1.3em;
   padding-top: 24px;
   text-indent: 20px;
+}
+
+.img_ania{
+  margin-top: 20px;
+  display:inline!important;
+  width: 240px;
 }
 
 .main-link .material-icons {
@@ -311,7 +318,7 @@ a img{
 }
 
 .text-section p{
-  text-align: left;
+  text-align: justify;;
   text-indent: 20px;
 }
 
@@ -361,10 +368,14 @@ a img{
 
   .main-sub-slogan h3{
     color: #15313C;
-    font-size: 1.3em;
-    margin: 0 16px;
-    padding-top: 8px;
+    font-size: 1.1em;
+    margin: 0 0px;
+    padding-top: 40px;
     line-height: 1.3em;
+  }
+
+  .empty-container{
+    width:35px;
   }
 
   .footer .mdl-mega-footer--bottom-section {
@@ -380,8 +391,18 @@ a img{
   .main-sub-slogan h3{
     color: #15313C;
     font-size: 1.1em;
-    margin: 0 16px;
-    padding-top: 8px;
-    line-height: 1.3em;
+    margin: 0 0;
+    padding-top: 10px;
+    line-height: 1.5em;
   }
+
+  .main-header {
+    height: 66px;
+  }
+
+  .main-welcome-section {
+    height: 500px;
+    background:url('../img/niebo.jpg') center 30% no-repeat;
+  }
+
 }
